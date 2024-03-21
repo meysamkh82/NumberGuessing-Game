@@ -1,0 +1,113 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family:"Arial";
+}
+body{
+    
+    background:grey;
+}
+p{
+    font-size: 17pt;color:rgb(66, 60, 63);
+}
+#con{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    max-width: 800px;
+    background-color: rgb(184, 184, 184);
+    margin:80px auto;
+    border-radius: 8px;
+    box-shadow:2px 2px 15px white;
+    padding:10px;
+    /* overflow: hidden; */
+}#con p{
+    color:rgb(21, 21, 21)
+}
+h1{
+    text-align: center;
+    font-size:3rem;
+    font-family:'samim';
+    color:yellow;
+    background:rgb(54, 52, 52);
+    padding:20px;
+    text-shadow: 0px 0px 4px white, 0px 0px 4px white, 0px 0px 4px white, 0px 0px 4px white;
+}
+input{
+    margin:25px 0;
+    padding: 5px;
+    max-width:190px;
+    font-size:1.3rem;
+    height:40px;
+    border-radius: 5px;
+    background:rgb(226, 226, 221);
+    border:none;
+    outline:wheat
+}
+button{
+    width:90px;
+    height: 40px;
+    margin:15px 0;
+    color:rgb(4, 4, 4);
+    font-size: 1rem;
+    font-weight: 900;
+    border-radius: 5px;
+    background:yellow;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    transition: all .2s;
+}
+span{
+    font-size:15pt;
+}button:hover{
+    background:rgba(255, 255, 0, 0.584);
+}#div{
+    font-size: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+}.wl{
+    font-size:24pt;
+}
+#ad{
+    font-size:24pt;
+    text-align:center;
+    color:rgb(49, 49, 49);
+    margin-top:20px;
+}
+a{
+    width:120px;
+    height: 60px;
+    font-size:1rem;
+    background-color: rgb(255, 252, 55);
+    text-align: center;text-decoration: none;
+    margin:0 10px;
+    border-radius:8px;
+    transition:0.4s;
+    line-height: 60px;
+}a:nth-child(2){
+    display: none;
+}
+a:nth-child(3){
+    line-height: 60px;
+    background-color: green;
+    cursor: pointer;
+}
+#kt{
+     display:flex;
+    justify-content: center;
+}
+a:hover{
+    background-color: white;
+}
+@media screen and (max-width:550px){
+   h1{
+       font-size: 2.5rem;
+   }p{
+       font-size:13pt;
+   }.wl{
+       font-size: 17pt;
+   }
+}
